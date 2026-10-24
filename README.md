@@ -50,3 +50,6 @@ This project provided practical experience with VLAN configuration, inter-VLAN r
 Author
 
 Computer Science student | Networking and Cybersecurity learner
+## Network Topology
+
+![Secure Office Network Topology](./topology.png)
