@@ -53,3 +53,27 @@ Computer Science student | Networking and Cybersecurity learner
 ## Network Topology
 
 ![Secure Office Network Topology](./topology.png)
+Testing & Verification
+
+The network was tested in Cisco Packet Tracer to verify connectivity and security controls.
+
+Test| Expected Result| Status
+DHCP on all 8 PCs| Each PC receives an IP address| Passed
+Admin PC to its gateway| Successful connectivity| Passed
+Guest PC to its gateway| Successful connectivity| Passed
+Guest PC to Admin network| Traffic blocked by ACL| Passed
+VLAN segmentation| Departments assigned to separate VLANs| Verified
+
+Security Measures
+
+- VLAN segmentation for Admin, HR, IT, and Guest departments.
+- DHCP for automatic IP address assignment.
+- Extended ACL to restrict Guest access to internal department networks.
+- Unused switch ports disabled.
+
+Future Improvements
+
+- Configure switch port security.
+- Add a dedicated management VLAN.
+- Explore a firewall and centralized logging.
+- Document additional connectivity and security tests.
